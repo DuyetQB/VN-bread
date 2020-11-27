@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>make slide</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet"/>
 </head>
 <body>
     <!-- Load Facebook SDK for JavaScript -->
@@ -38,6 +39,17 @@
         <button class="prevbtn"  onclick = "prev()">&#10094</button>
         <button class="nextbtn" onclick = "next()">&#10095</button>
     </div>
+
+      <div class="container">
+    <div class="loader">
+      <div class="l _1" style="--index: 0"></div>
+      <div class="l _2" style="--index: 1"></div>
+      <div class="l _3" style="--index: 2"></div>
+      <div class="l _4" style="--index: 3"></div>
+    </div>
+  </div> 
+
+  
     <script src = "./main.js"></script>
     
 </body>
